@@ -1,0 +1,82 @@
+{
+  "properties": [
+    {
+      "name": "geo.map.point.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Признак создания карты с точками.",
+      "sourceType": "com.pluxurydolo.geo.properties.GeoProperties"
+    },
+    {
+      "name": "geo.map.point.title",
+      "type": "java.lang.String",
+      "description": "Название карты с точками.",
+      "sourceType": "com.pluxurydolo.geo.properties.GeoProperties"
+    },
+    {
+      "name": "geo.map.route.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Признак создания карты с маршрутом.",
+      "sourceType": "com.pluxurydolo.geo.properties.GeoProperties"
+    },
+    {
+      "name": "geo.map.route.title",
+      "type": "java.lang.String",
+      "description": "Название карты с маршрутом.",
+      "sourceType": "com.pluxurydolo.geo.properties.GeoProperties"
+    }
+  ],
+  "hints": [
+    {
+      "name": "geo.map.point.enabled",
+      "values": [
+        {
+          "value": "true"
+        }
+      ],
+      "providers": [
+        {
+          "name": "any"
+        }
+      ]
+    },
+    {
+      "name": "geo.map.point.title",
+      "values": [
+        {
+          "value": "Точки на карте"
+        }
+      ],
+      "providers": [
+        {
+          "name": "any"
+        }
+      ]
+    },
+    {
+      "name": "geo.map.route.enabled",
+      "values": [
+        {
+          "value": "true"
+        }
+      ],
+      "providers": [
+        {
+          "name": "any"
+        }
+      ]
+    },
+    {
+      "name": "geo.map.route.title",
+      "values": [
+        {
+          "value": "Маршруты"
+        }
+      ],
+      "providers": [
+        {
+          "name": "any"
+        }
+      ]
+    }
+  ]
+}

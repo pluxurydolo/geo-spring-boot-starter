@@ -1,0 +1,11 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+geo:
+  map:
+    point:
+      enabled: true
+      title: POINT_TITLE
+    route:
+      enabled: true
+      title: ROUTE_TITLE

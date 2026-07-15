@@ -1,0 +1,6 @@
+geo:
+  map:
+    point:
+      title: Точки на карте
+    route:
+      title: Маршруты
