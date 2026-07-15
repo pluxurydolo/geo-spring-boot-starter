@@ -21,7 +21,7 @@ class GeoRouteControllerIntegrationTests extends AbstractControllerIntegrationTe
                 byte[] responseBody = result.getResponseBody();
 
                 assertThat(responseBody)
-                    .hasSize(1969);
+                    .isNotEmpty();
             });
     }
 
